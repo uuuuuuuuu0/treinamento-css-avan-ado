@@ -1,10 +1,10 @@
 import React from 'react';
 import * as S from './styles';
 
-export interface StyleProps {
+export interface StyledProps {
 }
 
-interface ComponentProps extends StyleProps {
+interface ComponentProps extends StyledProps {
 }
 
 const <FTName>: React.FC<ComponentProps> = ({}) => {
