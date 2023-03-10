@@ -7,7 +7,11 @@ export const defaultTheme = {
         },
         secondary: {
             light: '#FFFFFF',
-            main: '#FFFFFF',
+            main: '#004C97',
+            dark: '#000000'
+        },
+        util: {
+            light: '#FFFFFF',
             dark: '#000000'
         }
     },

@@ -3,6 +3,7 @@ import * as S from './styles';
 
 export interface StyledProps {
     buttonType: 'FILLED' | 'OUTLINED' | 'TEXT';
+    buttonGradient: 'NONE' | 'HORIZONTAL';
     borderRadius: boolean;
     icon: boolean;
 }
@@ -17,6 +18,7 @@ const TestButton: React.FC<ComponentProps> = ({
     onClick,
     buttonType,
     borderRadius,
+    buttonGradient,
     icon,
     iconPath,
     contentText
@@ -25,6 +27,7 @@ const TestButton: React.FC<ComponentProps> = ({
         <S.ButtonWrapper
             onClick={onClick}
             buttonType={buttonType}
+            buttonGradient={buttonGradient}
             borderRadius={borderRadius}
             icon={icon}
         >
